@@ -7,7 +7,7 @@ df = pd.read_excel('books_data.xlsx')
 conn = psycopg2.connect(
     dbname='books_db',   
     user='postgres',    
-    password='Aishine2002+',  
+    password='mot de passe',  
     host='localhost',     
     port='5432'           
 )
@@ -22,8 +22,8 @@ VALUES (%s, %s, %s, %s);
 """
 
 # Insérer les données dans la table
-for index, row in df.iterrows():
-    cursor.execute(insert_query, (row['Titre'], row['Prix'], row['Disponibilité'], row['Rating']))
+# for index, row in df.iterrows():
+#     cursor.execute(insert_query, (row['Titre'], row['Prix'], row['Disponibilité'], row['Rating']))
 
 # Commit les changements
 conn.commit()
