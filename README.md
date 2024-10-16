@@ -2,7 +2,7 @@
 
 ## Description
 
-Ce projet consiste en un pipeline ETL (Extract, Transform, Load) qui scrape les données de livres à partir d'un site web, les transforme et les charge dans une base de données PostgreSQL. Ensuite, il utilise Power BI pour visualiser les données collectées. Ce projet est une démonstration des compétences en scraping web, en manipulation de données et en gestion de base de données .
+Ce projet consiste en un pipeline ETL (Extract, Transform, Load) qui scrape les données de livres à partir d'un site web, les transforme et les charge dans une base de données PostgreSQL. Ce projet est une démonstration des compétences en scraping web, en manipulation de données et en gestion de base de données .
 
 ## Étapes du projet
 
